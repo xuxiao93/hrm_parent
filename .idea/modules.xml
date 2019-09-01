@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_parent.iml" filepath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/hrm_basic_util.iml" filepath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/hrm_basic_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_support_parent/hrm_eureka/hrm_eureka.iml" filepath="$PROJECT_DIR$/hrm_support_parent/hrm_eureka/hrm_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/hrm_management_interface.iml" filepath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/hrm_management_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_parent.iml" filepath="$PROJECT_DIR$/hrm_management_parent/hrm_management_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/hrm_management_service.iml" filepath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/hrm_management_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_mybatisplus_gen/hrm_mybatisplus_gen.iml" filepath="$PROJECT_DIR$/hrm_mybatisplus_gen/hrm_mybatisplus_gen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_parent.iml" filepath="$PROJECT_DIR$/hrm_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_support_parent/hrm_support_parent.iml" filepath="$PROJECT_DIR$/hrm_support_parent/hrm_support_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_support_parent/hrm_zuul/hrm_zuul.iml" filepath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/hrm_zuul.iml" />
+    </modules>
+  </component>
+</project>
