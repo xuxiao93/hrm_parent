@@ -1,0 +1,18 @@
+server:
+  port: 8848
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xuxiao93/hrm_config.git
+          username: xuxiao93
+          password: zw335243
+eureka:
+  client:
+    service-url:
+      defaultZone: eureka-7001.com:7001/eureka
+  instance:
+    prefer-ip-address: true
