@@ -1,0 +1,19 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: hrm-sysmanage
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/hrm_sysmanage
+      username: root
+      password: 335243
+mybatis-plus:
+  mapper-locations: classpath:com/xurui/hrm/mapper/*Mapper.xml
+  type-aliases-package: com.xurui.hrm.domain,com.xurui.hrm.query
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-7001.com:7001/eureka
+  instance:
+    prefer-ip-address: true

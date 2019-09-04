@@ -11,7 +11,6 @@
 
     <artifactId>hrm_management_service</artifactId>
     <dependencies>
-
         <!--所有provider公共依賴-->
         <dependency>
             <groupId>com.xurui.hrm</groupId>
@@ -22,6 +21,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -46,6 +46,12 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
+        <!--配置中心支持-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+
         <!--引入swagger支持-->
         <dependency>
             <groupId>io.springfox</groupId>
@@ -57,6 +63,11 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xurui.hrm</groupId>
+            <artifactId>hrm_basic_util</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

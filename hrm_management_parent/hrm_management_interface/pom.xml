@@ -12,7 +12,6 @@
     <artifactId>hrm_management_interface</artifactId>
     <dependencies>
         <!--不能直接依赖starter，有自动配置，而消费者是不需要额。-->
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -28,9 +27,10 @@
             <groupId>com.xurui.hrm</groupId>
             <artifactId>hrm_basic_util</artifactId>
             <version>1.0-SNAPSHOT</version>
+
         </dependency>
 
-        <!--不能全部引入mybatis-plus-boot-starter,这是要做数据库操作,这里是不需要的,只需引入核心包解决错误而已-->
+        <!--不能全部引入mybatis-plus,这是要做数据库操作,这里是不需要的,只需引入核心包解决错误而已-->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus</artifactId>
@@ -43,5 +43,4 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
-
 </project>

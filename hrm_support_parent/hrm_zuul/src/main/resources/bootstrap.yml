@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: dev
   cloud:
     config:
       #uri: http://localhost:8848 #配置configserver单个服务器
@@ -8,12 +10,10 @@ spring:
       label: master #分支
       name: application-zuul #那个文件
       profile: ${spring.profiles.active} # 那个环境
-  profiles:
-    active: dev
 eureka:
   client:
     service-url:
-      defaultZone: eureka-7001.com:7001/eureka
+      defaultZone: http://eureka-7001.com:7001/eureka
   instance:
     instance-id: gateway-9527.com
     prefer-ip-address: true
