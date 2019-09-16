@@ -50,6 +50,7 @@ public class Tenant extends Model<Tenant> {
                 maps.add(map);
             }
         }
+
         return maps;
     }
 

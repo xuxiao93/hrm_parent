@@ -12,7 +12,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author xuxiao
- * @since 2019-08-30
+ * @since 2019-09-05
  */
 @TableName("t_systemdictionary")
 public class Systemdictionary extends Model<Systemdictionary> {
@@ -23,6 +23,8 @@ public class Systemdictionary extends Model<Systemdictionary> {
     private Long id;
     private String sn;
     private String name;
+    private String intro;
+    private Integer state;
 
 
     public Long getId() {
@@ -49,6 +51,22 @@ public class Systemdictionary extends Model<Systemdictionary> {
         this.name = name;
     }
 
+    public String getIntro() {
+        return intro;
+    }
+
+    public void setIntro(String intro) {
+        this.intro = intro;
+    }
+
+    public Integer getState() {
+        return state;
+    }
+
+    public void setState(Integer state) {
+        this.state = state;
+    }
+
     @Override
     protected Serializable pkVal() {
         return this.id;
@@ -60,6 +78,8 @@ public class Systemdictionary extends Model<Systemdictionary> {
         ", id=" + id +
         ", sn=" + sn +
         ", name=" + name +
+        ", intro=" + intro +
+        ", state=" + state +
         "}";
     }
 }

@@ -13,7 +13,9 @@
         <module>hrm_basic_parent</module>
         <module>hrm_management_parent</module>
         <module>hrm_mybatisplus_gen</module>
-        <module>hrm_course_parent9002</module>
+        <module>hrm_course_parent</module>
+        <module>hrm_page_parent</module>
+
 
     </modules>
 

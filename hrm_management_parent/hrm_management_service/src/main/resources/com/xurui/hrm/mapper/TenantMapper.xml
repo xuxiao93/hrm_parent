@@ -24,4 +24,5 @@
     <delete id="removeTenantMeal" parameterType="long">
         DELETE  from t_tenant_meal where tenant_id =#{id}
     </delete>
+
 </mapper>

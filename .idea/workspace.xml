@@ -2,52 +2,185 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c84bdc9-ca52-4c5f-b5ec-002810ad3709" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_11_0_201803080745_r.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_4_11_0_201803080745_r.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/hrm_course_ interface.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_parent9002.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/hrm_course_service.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/Courseserver_9002.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/config/MybatisPlusConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/config/Swagger2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/bootstrap.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/bootstrap_bak.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/logback-spring.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent9002/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/bootstrap_bak.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/logback-spring.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-course.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/hrm_config_server_8848.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/src/main/resources/logback-spring.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_eureka/src/main/resources/logback-spring.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui/hrm/config/DocumentationConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui/hrm/config/GlobalCorsConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui/hrm/config/SwaggerConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/resources/logback-spring.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_9_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_1_13.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_29_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_6_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_client_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_5_6_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_transport_5_6_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_5_6_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_4_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_5_6_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_5_6_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_5_6_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_5_6_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_5_6_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_securesm_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_locationtech_spatial4j_spatial4j_0_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_elasticsearch_2_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_10_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_0_10_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/com/xurui/hrm/doc/EsCourse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service9004/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service9004/src/main/java/com/xurui/hrm/Es9004Application.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service9004/src/main/java/com/xurui/hrm/config/Swagger2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service9004/src/main/java/com/xurui/hrm/repository/CourseRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service9004/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service9004/src/main/resources/logback-spring.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/hrm_basic_fastdfs_interface.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/xurui/hrm/client/FastDfsClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/xurui/hrm/client/FastDfsClientHystrixFallbackFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service9003/hrm_basic_fastdfs_service9003.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service9003/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service9003/src/main/java/com/xurui/hrm/FastDfs9003Application.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service9003/src/main/java/com/xurui/hrm/config/Swagger2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service9003/src/main/java/com/xurui/hrm/controller/FastDfsController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service9003/src/main/java/com/xurui/hrm/util/FastDfsApiOpr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service9003/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service9003/src/main/resources/bootstrap.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service9003/src/main/resources/fdfs_client.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/com/xurui/hrm/client/RedisClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/com/xurui/hrm/client/RedisClientFallbackFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_common/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/Redis9005.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/config/Swagger2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/controller/RedisController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/util/RedisUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/resources/bootstrap.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/resources/logback-spring.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/resources/redis.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/hrm_course_interface.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_parent.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/hrm_course_service9002.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/java/com/xurui/hrm/Course9002Application.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/java/com/xurui/hrm/util/UserInfoHolder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/resources/bootstrap.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/resources/logback-spring.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/PageConfigClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/PageConfigClientHystrixFallbackFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/PagerClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/PagerClientHystrixFallbackFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/SiteClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/SiteClientHystrixFallbackFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/domain/PageConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/domain/Pager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/domain/Site.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/query/PageConfigQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/query/PagerQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/query/SiteQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/Page9006Application.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/config/MybatisPlusConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/config/Swagger2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/controller/PageConfigController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/controller/PagerController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/controller/SiteController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/mapper/PageConfigMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/mapper/PagerMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/mapper/SiteMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/IPageConfigService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/IPagerService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/ISiteService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/impl/PageConfigServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/impl/PagerServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/impl/SiteServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/bootstrap.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/bootstrap_bak.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/com/xurui/hrm/mapper/PageConfigMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/com/xurui/hrm/mapper/PagerMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/com/xurui/hrm/mapper/SiteMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/logback-spring.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/pom.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/pom.xml" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/hrm_management_service.iml" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/hrm_management_service.iml" />
-      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/pom.xml" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/pom.xml" afterPath="$PROJECT_DIR$/hrm_basic_parent/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/hrm_course_ interface.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/src/main/java/com/xurui/hrm/client/CourseTypeClient.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/src/main/java/com/xurui/hrm/client/CourseTypeClientHystrixFallbackFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/src/main/java/com/xurui/hrm/domain/CourseType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/src/main/java/com/xurui/hrm/query/CourseTypeQuery.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_parent9002.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/hrm_course_service.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/Courseserver_9002.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/config/MybatisPlusConfig.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/java/com/xurui/hrm/config/MybatisPlusConfig.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/config/Swagger2.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/java/com/xurui/hrm/config/Swagger2.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/mapper/CourseTypeMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/service/ICourseTypeService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/service/impl/CourseTypeServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/web/controller/CourseTypeController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/bootstrap.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/bootstrap_bak.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/com/xurui/hrm/mapper/CourseTypeMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/logback-spring.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/target/classes/bootstrap.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/target/classes/bootstrap_bak.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/target/classes/com/xurui/hrm/Courseserver_9002.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent9002/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/client/TenantClient.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/client/TenantClient.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/Systemdictionary.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/Systemdictionary.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/Systemdictionaryitem.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/Systemdictionaryitem.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/Tenant.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/Tenant.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/TenantType.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/TenantType.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/query/SystemdictionaryQuery.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/query/SystemdictionaryQuery.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/query/SystemdictionaryitemQuery.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/query/SystemdictionaryitemQuery.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/mapper/SystemdictionaryMapper.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/mapper/SystemdictionaryMapper.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/mapper/SystemdictionaryitemMapper.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/mapper/SystemdictionaryitemMapper.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/service/ISystemdictionaryService.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/service/ISystemdictionaryService.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/service/ISystemdictionaryitemService.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/service/ISystemdictionaryitemService.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/service/impl/SystemdictionaryServiceImpl.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/service/impl/SystemdictionaryServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/service/impl/SystemdictionaryitemServiceImpl.java" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/service/impl/SystemdictionaryitemServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/xurui/hrm/mapper/SystemdictionaryMapper.xml" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/xurui/hrm/mapper/SystemdictionaryMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/xurui/hrm/mapper/SystemdictionaryitemMapper.xml" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/xurui/hrm/mapper/SystemdictionaryitemMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/xurui/hrm/mapper/TenantMapper.xml" afterPath="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/xurui/hrm/mapper/TenantMapper.xml" />
       <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode.java" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-course.properties" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-course.properties" />
       <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/src/main/resources/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_eureka/pom.xml" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_eureka/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/hrm_zuul.iml" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/hrm_zuul.iml" />
-      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/pom.xml" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/target/classes/bootstrap.yml" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/target/classes/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui/hrm/config/GlobalCorsConfig.java" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui/hrm/config/GlobalCorsConfig.java" />
       <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/resources/bootstrap.yml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
@@ -69,6 +202,19 @@
     <ignored path="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/target/" />
     <ignored path="$PROJECT_DIR$/hrm_course_parent9002/target/" />
     <ignored path="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service9003/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service9004/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_common/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_page_parent/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,23 +235,13 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="EmployeeMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/xurui/hrm/mapper/EmployeeMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -113,16 +249,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cn/itsource</find>
-      <find>cn.itsource</find>
       <find>hrm_course_parent</find>
       <find>\</find>
+      <find>tenant_type</find>
+      <find>cn.itsource</find>
     </findStrings>
     <replaceStrings>
       <replace>com/xurui</replace>
-      <replace>com.xurui</replace>
-      <replace>\\</replace>
       <replace>/</replace>
       <replace>hrm_course_parent9002</replace>
+      <replace>\\</replace>
+      <replace>com.xurui</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -136,57 +273,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/ClientHystrixFallbackFactory.java.vm" />
-        <option value="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/query.java.vm" />
-        <option value="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/controller.java.vm" />
-        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/SysManage9001Application.java" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/test/java/com/xurui/hrm/service/ISystemdictionaryServiceTest.java" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui/zuul/ZuulApplication_9527.java" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui/hrm/config/DocumentationConfig.java" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui/hrm/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui/hrm/config/GlobalCorsConfig.java" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/xurui/hrm/Course9002Application.java" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_ interface/src/main/java/com/xurui/hrm/client/CourseTypeClient.java" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/xurui/hrm/web/controller/CourseTypeController.java" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/src/main/java/com/xurui/hrm/ConfigServer8848Application.java" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_ interface/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/bootstrap_bak.yml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/xurui/hrm/Courseserver_9002.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-course.properties" />
-        <option value="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/config/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_eureka/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode.java" />
-        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/Tenant.java" />
-        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/Employee.java" />
-        <option value="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/web/controller/CourseTypeController.java" />
-        <option value="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/service/ICourseTypeService.java" />
-        <option value="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/service/impl/CourseTypeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/mapper/CourseTypeMapper.java" />
-        <option value="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/com/xurui/hrm/mapper/CourseTypeMapper.xml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/src/main/java/com/xurui/hrm/domain/CourseType.java" />
-        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/service/impl/TenantServiceImpl.java" />
-        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/mapper/TenantMapper.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/resources/bootstrap_bak.yml" />
         <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/xurui/hrm/mapper/TenantMapper.xml" />
+        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/TenantType.java" />
+        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/Tenant.java" />
+        <option value="$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/client/TenantClient.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/java/com/xurui/hrm/Course9002Application.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/java/com/xurui/hrm/web/controller/CourseTypeController.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_common/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/java/com/xurui/hrm/service/ICourseTypeService.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/xurui/hrm/domain/CourseType.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/java/com/xurui/hrm/service/impl/CourseTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/com/xurui/hrm/client/RedisClient.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/util/RedisUtils.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/util/Redis9005.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/Redis9005.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui/hrm/config/GlobalCorsConfig.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/query/SiteQuery.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/com/xurui/hrm/mapper/PageConfigMapper.xml" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/com/xurui/hrm/mapper/PagerMapper.xml" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/com/xurui/hrm/mapper/SiteMapper.xml" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/impl/PagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/impl/SiteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/ISiteService.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/mapper/PageConfigMapper.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/IPagerService.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/mapper/PagerMapper.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/controller/SiteController.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/IPageConfigService.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/controller/PagerController.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/controller/PageConfigController.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/mapper/SiteMapper.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/impl/PageConfigServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/Page9006Application.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/PageConfigClient.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/PageConfigClientHystrixFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/PagerClient.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/PagerClientHystrixFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/SiteClient.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/SiteClientHystrixFallbackFactory.java" />
       </list>
     </option>
   </component>
@@ -209,7 +346,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-81" />
     <option name="y" value="131" />
     <option name="width" value="1346" />
@@ -230,6 +367,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -242,8 +381,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,8 +390,8 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/新建文件夹/code/p" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/新建文件夹/code/testrabbimq" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -262,19 +399,23 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.xurui.hrm.service" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javawebspace\ideaproject\hrm_parent\hrm_mybatisplus_gen\src\main\resources\templates" />
+      <recent name="D:\javawebspace\ideaproject\hrm_parent\hrm_page_parent\hrm_page_service9006\src\main\java\com\xurui\hrm" />
+      <recent name="D:\javawebspace\ideaproject\hrm_parent\hrm_page_parent\hrm_page_service9006\src\main\resources\com\xurui\hrm\mapper" />
+      <recent name="D:\javawebspace\ideaproject\hrm_parent\hrm_page_parent\hrm_page_service9006\src\main\resources" />
+      <recent name="D:\javawebspace\ideaproject\hrm_parent\hrm_page_parent\hrm_page_common\src\main\java\com\xurui\hrm" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\javawebspace\ideaproject\hrm_parent\hrm_support_parent\hrm_zuul\src\main\resources" />
-      <recent name="D:\javawebspace\ideaproject\hrm_parent\hrm_support_parent\hrm_eureka\src\main\resources" />
-      <recent name="D:\javawebspace\ideaproject\hrm_parent\hrm_support_parent\hrm_config_server_8848\src\main\resources" />
-      <recent name="D:\javawebspace\ideaproject\hrm_parent\hrm_management_parent\hrm_management_service\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\javawebspace\ideaproject\hrm_parent\hrm_course_parent9002\hrm_course_service\src\main\resources" />
     </key>
   </component>
@@ -294,9 +435,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.15136611" />
+    <option name="contentProportion" value="0.24043716" />
   </component>
-  <component name="RunManager" selected="Application.GenteratorCode">
+  <component name="RunManager" selected="Spring Boot.Redis9005">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -371,6 +512,18 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hrm_course_parent9002" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -390,16 +543,28 @@
       <module name="hrm_config_server_8848" />
       <envs />
     </configuration>
-    <configuration name="Courseserver_9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Course9002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.xurui.hrm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xurui.hrm.Courseserver_9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xurui.hrm.Course9002Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="hrm_course_service" />
+      <module name="hrm_course_service9002" />
+      <envs />
+    </configuration>
+    <configuration name="Es9004Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xurui.hrm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xurui.hrm.Es9004Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="hrm_basic_es_service9004" />
       <envs />
     </configuration>
     <configuration name="EurekaServer_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -414,6 +579,18 @@
       <module name="hrm_eureka" />
       <envs />
     </configuration>
+    <configuration name="FastDfs9003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xurui.hrm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xurui.hrm.FastDfs9003Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="hrm_basic_fastdfs_service9003" />
+      <envs />
+    </configuration>
     <configuration name="Manage9001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -424,6 +601,18 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xurui.hrm.Manage9001Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="hrm_management_service" />
+      <envs />
+    </configuration>
+    <configuration name="Redis9005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xurui.hrm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xurui.hrm.Redis9005" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="hrm_basic_redis_service9005" />
       <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -459,13 +648,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="6">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.Manage9001Application" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.EurekaServer_7001" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ConfigServer8848Application" />
       <item index="3" class="java.lang.String" itemvalue="Application.ZuulApplication_9527" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.Courseserver_9002" />
-      <item index="5" class="java.lang.String" itemvalue="Application.GenteratorCode" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.FastDfs9003Application" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.Es9004Application" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.Course9002Application" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.Redis9005" />
+      <item index="8" class="java.lang.String" itemvalue="Application.GenteratorCode" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -502,7 +694,14 @@
       <workItem from="1567435766054" duration="2206000" />
       <workItem from="1567438754330" duration="1231000" />
       <workItem from="1567482625883" duration="2263000" />
-      <workItem from="1567581666235" duration="77000" />
+      <workItem from="1567581666235" duration="10695000" />
+      <workItem from="1567644981233" duration="998000" />
+      <workItem from="1567654941993" duration="18999000" />
+      <workItem from="1567732313213" duration="11112000" />
+      <workItem from="1567952310759" duration="3277000" />
+      <workItem from="1568077293139" duration="349000" />
+      <workItem from="1568637942805" duration="1264000" />
+      <workItem from="1568640349683" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1567347381146</created>
@@ -520,9 +719,9 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48795000" />
+    <option name="totallyTimeSpent" value="95440000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -532,24 +731,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49785408" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40701753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32163742" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32046783" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35906434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2502924" sideWeight="0.49517167" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2585837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28433478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -563,9 +759,45 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32163742" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49785408" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32046783" sideWeight="0.49570817" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2502924" sideWeight="0.49517167" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27360514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -578,354 +810,368 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/xurui/hrm/client/FastDfsClientHystrixFallbackFactory.java</url>
+          <line>19</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.3/eureka-client-1.9.3.jar!/com/netflix/discovery/shared/transport/decorator/RetryableEurekaHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui/hrm/ZuulApplication_9527.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/bootstrap.yml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java" />
-    <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/bootstrap_bak.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/com/xurui/hrm/Course9002Application.java" />
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="44" column="19" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="44" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1129">
-          <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
-          <caret line="71" column="19" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="71" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/bootstrap_bak.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/src/main/java/com/xurui/hrm/ConfigServer8848Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/Manage9001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-course.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/config/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/config/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="33" column="77" lean-forward="false" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
           <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/logback-spring.xml">
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/resources/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1004">
-          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_config_server_8848/src/main/resources/logback-spring.xml">
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service9002/src/main/java/com/xurui/hrm/service/impl/CourseTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="913">
+          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/com/xurui/hrm/client/RedisClientFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/Redis9005.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_eureka/src/main/resources/logback-spring.xml">
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/com/xurui/hrm/client/RedisClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/resources/logback-spring.xml">
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="68" lean-forward="false" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="12" column="72" lean-forward="true" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service9005/src/main/java/com/xurui/hrm/util/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_zuul/src/main/java/com/xurui/hrm/config/GlobalCorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1031">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/domain/PageConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1310">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/query/PagerQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/domain/Site.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/query/SiteQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/query/PageConfigQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/Employee.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/com/xurui/hrm/domain/Pager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2538">
-          <caret line="146" column="5" lean-forward="false" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+        <state relative-caret-position="112">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/Tenant.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2119">
-          <caret line="153" column="5" lean-forward="false" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
+        <state relative-caret-position="1372">
+          <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/Courseserver_9002.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="-176">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_interface/src/main/java/com/xurui/hrm/domain/Meal.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/web/controller/CourseTypeController.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/com/xurui/hrm/mapper/PageConfigMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="89" column="5" lean-forward="false" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        <state relative-caret-position="216">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/mapper/CourseTypeMapper.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/com/xurui/hrm/mapper/PagerMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="243">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/service/impl/CourseTypeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/resources/com/xurui/hrm/mapper/SiteMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/java/com/xurui/hrm/service/ICourseTypeService.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/config/MybatisPlusConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="22" column="63" lean-forward="false" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        <state relative-caret-position="243">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/src/main/java/com/xurui/hrm/client/CourseTypeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_ interface/src/main/java/com/xurui/hrm/domain/CourseType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2767">
-          <caret line="162" column="5" lean-forward="false" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent9002/hrm_course_service/src/main/resources/com/xurui/hrm/mapper/CourseTypeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/web/controller/TenantTypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-932">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/web/controller/PermissionController.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/config/Swagger2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/web/controller/TenantController.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/controller/PageConfigController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/service/impl/TenantTypeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/controller/PagerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="459">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/service/impl/TenantServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/controller/SiteController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="274">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/java/com/xurui/hrm/mapper/TenantMapper.java">
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/mapper/PageConfigMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="378">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/mapper/PagerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/mapper/SiteMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/impl/PageConfigServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/impl/PagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/impl/SiteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/IPageConfigService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/IPagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/service/ISiteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service9006/src/main/java/com/xurui/hrm/Page9006Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/PageConfigClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/PageConfigClientHystrixFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/PagerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/PagerClientHystrixFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/SiteClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/com/xurui/hrm/client/SiteClientHystrixFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/mybatisplus-user.properties" />
+    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-es.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/xurui/hrm/mapper/TenantMapper.xml">
+    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-          <folding>
-            <marker date="1567483135515" expanded="true" signature="1141:1190" ph="DELETE from t_tenant_meal" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_management_parent/hrm_management_service/src/main/resources/com/xurui/hrm/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="243">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -982,7 +1228,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>hrm_zuul</last-edited>
+          <last-edited>hrm_course_interface</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

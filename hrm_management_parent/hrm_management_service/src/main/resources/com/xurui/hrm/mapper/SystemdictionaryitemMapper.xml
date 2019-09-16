@@ -5,8 +5,10 @@
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.xurui.hrm.domain.Systemdictionaryitem">
         <id column="id" property="id" />
+        <result column="parent_id" property="parentId" />
         <result column="name" property="name" />
-        <result column="types_id" property="typesId" />
+        <result column="requence" property="requence" />
+        <result column="intro" property="intro" />
     </resultMap>
 
 </mapper>

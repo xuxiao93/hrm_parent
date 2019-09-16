@@ -13,7 +13,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author xuxiao
- * @since 2019-08-30
+ * @since 2019-09-05
  */
 @TableName("t_systemdictionaryitem")
 public class Systemdictionaryitem extends Model<Systemdictionaryitem> {
@@ -22,9 +22,11 @@ public class Systemdictionaryitem extends Model<Systemdictionaryitem> {
 
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
+    @TableField("parent_id")
+    private Long parentId;
     private String name;
-    @TableField("types_id")
-    private Long typesId;
+    private Integer requence;
+    private String intro;
 
 
     public Long getId() {
@@ -35,6 +37,14 @@ public class Systemdictionaryitem extends Model<Systemdictionaryitem> {
         this.id = id;
     }
 
+    public Long getParentId() {
+        return parentId;
+    }
+
+    public void setParentId(Long parentId) {
+        this.parentId = parentId;
+    }
+
     public String getName() {
         return name;
     }
@@ -43,12 +53,20 @@ public class Systemdictionaryitem extends Model<Systemdictionaryitem> {
         this.name = name;
     }
 
-    public Long getTypesId() {
-        return typesId;
+    public Integer getRequence() {
+        return requence;
     }
 
-    public void setTypesId(Long typesId) {
-        this.typesId = typesId;
+    public void setRequence(Integer requence) {
+        this.requence = requence;
+    }
+
+    public String getIntro() {
+        return intro;
+    }
+
+    public void setIntro(String intro) {
+        this.intro = intro;
     }
 
     @Override
@@ -60,8 +78,10 @@ public class Systemdictionaryitem extends Model<Systemdictionaryitem> {
     public String toString() {
         return "Systemdictionaryitem{" +
         ", id=" + id +
+        ", parentId=" + parentId +
         ", name=" + name +
-        ", typesId=" + typesId +
+        ", requence=" + requence +
+        ", intro=" + intro +
         "}";
     }
 }

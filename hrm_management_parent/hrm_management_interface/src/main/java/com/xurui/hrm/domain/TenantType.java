@@ -57,9 +57,9 @@ public class TenantType extends Model<TenantType> {
     @Override
     public String toString() {
         return "TenantType{" +
-        ", id=" + id +
-        ", name=" + name +
-        ", description=" + description +
-        "}";
+                ", id=" + id +
+                ", name=" + name +
+                ", description=" + description +
+                "}";
     }
 }
